@@ -5,10 +5,10 @@
  * 
  * 
  */
-
+$ npm install console-remote-client
 // Import the HTTP module. 
 var http = require('http');
-$ npm install console-remote-client
+
 
 // Get the ip address and port number the server listens on
 var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
