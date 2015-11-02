@@ -5,7 +5,8 @@
  * 
  * 
  */
- 
+ <script src="//console.re/connector.js" data-channel="A00220384_assignment_one" id="consolerescript"></script>
+
 // Import the HTTP module. 
 var http = require('http');
 
