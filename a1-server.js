@@ -5,7 +5,7 @@
  * 
  * 
  */
-$ npm install console-remote-client
+//$ npm install console-remote-client
 // Import the HTTP module. 
 var http = require('http');
 
@@ -56,5 +56,5 @@ server.listen(server_port, server_ip_address, function(){
     //console.warn("Server is starting and listening for user requests");
     // 4. Add a debug message which ouputs your server ip address and your server port number. Your server ip address 
     // and your server port number values are available in the server_ip_address and server_port program global variables
-    console.log("server_port is 8080. server_ip_address is 127.0.0.1")
+    //console.log("server_port is 8080. server_ip_address is 127.0.0.1")
 });
