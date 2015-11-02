@@ -34,7 +34,7 @@ function handleRequest(request, response){
     // 1. Add a debug message which ouputs the sum of the simple equation above. Values are available in the augend, addend 
     // and sum (global) variables
     console.log("The output of sum will be 18." );
-     console.log("The operator is incorrect instead of adding the two variable the program instead multiplies the by one another." );
+    console.log("The operator is incorrect instead of adding the two variable the program instead multiplies the by one another." );
     // 2. Add a debug message which ouputs the current values of the augend addend and sum variables
     console.log("The current value of augend is 6");
     console.log("The current value of addend is 3");
