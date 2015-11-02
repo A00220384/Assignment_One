@@ -21,7 +21,7 @@ var sum;
 // We will use a remote console logging service for debug messages
 // Define the service variable and connnect
 // You must edit <<<change_to_your_repo_name>>> to be your repository name
-var consolere = require('console-remote-client').connect('console.re','80','<<<A00220384>>>');
+var consolere = require('console-remote-client').connect('console.re','80','A00220384_assingment_one');
 
 // Function to handle web browser requests and server responses
 function handleRequest(request, response){
