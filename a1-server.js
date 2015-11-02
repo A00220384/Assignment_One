@@ -5,7 +5,6 @@
  * 
  * 
  */
- <script src="//console.re/connector.js" data-channel="A00220384_assignment_one" id="consolerescript"></script>
 
 // Import the HTTP module. 
 var http = require('http');
@@ -22,7 +21,8 @@ var sum;
 // We will use a remote console logging service for debug messages
 // Define the service variable and connnect
 // You must edit <<<change_to_your_repo_name>>> to be your repository name
-var consolere = require('console-remote-client').connect('console.re','80','A00220384_assingment_one');
+var consolere = require('console-remote-client').connect('console.re','80','A00220384_assignment_one');
+console.re.log('remote log test')
 
 // Function to handle web browser requests and server responses
 function handleRequest(request, response){
