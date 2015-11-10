@@ -29,7 +29,8 @@ function handleRequest(request, response){
     sum = augend * addend;
     // Send user the server response 
     response.end('Assignment One. Expected Sum of 6 + 3 is 9, Actual Sum returned by program is : ' + sum);
-    console.re.log("Test debug");
+    console.re.log("Sum of equation = " +sum);
+    console.re.log("Sum : " +sum+"Augend : " +augend+"Addend : " +addend+".");
     // ASSIGNMENT
     // 1. Add a debug message which ouputs the sum of the simple equation above. Values are available in the augend, addend 
     // and sum (global) variables
@@ -42,7 +43,8 @@ var server = http.createServer(handleRequest);
 // Lets start our server
 server.listen(server_port, server_ip_address, function(){
     // This is the callback function which triggered when server is successfully listening (active).
-    
+    console.re.log("Server is started and listening for user requests");
+    console.re.log("Server ip address is: " +server_ip_address+ ". Server port number is: " +server_port+ ".");
     // ASSIGNMENT
     // 3. Add a debug message which ouputs a message indicating the server is started (listening for user requests).
     // 4. Add a debug message which ouputs your server ip address and your server port number. Your server ip address 
